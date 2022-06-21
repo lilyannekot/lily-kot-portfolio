@@ -1,10 +1,22 @@
 :root {
     --navy: #123C69;
     --white: white;
+    --beige: #EEE2DC;
+    --font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .topnav {
     text-align: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--navy);
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
 }
 
 body {
@@ -14,13 +26,9 @@ body {
 
 body h1 {
     text-align: center;
-    text-transform: capitalize;
     background-color: #123C69;
     color: var(--white);
     overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 body h2 {
@@ -35,20 +43,43 @@ form {
     color: var(--navy);
 }
 
-/* @media screen and (min-width: 992px) {
+input {
+    background: var(--beige);
+    font-family: var(--font-family);
+}
+
+textarea {
+    background: var(--beige);
+    font-family: var(--font-family);
+}
+
+@media screen and (min-width: 992px) {
     body { 
         width: 50%;
+        display: block;
     }
 }
 
 @media screen and (min-width: 768px) {
     body {
         width: 100%;
+        display: block;
     }
 }
 
 @media screen and (max-width: 768px) {
     body {
-        width: 25%
+        width: 25%;
+        display: block;
     }
-} */
+} 
+
+footer {
+    position: fixed;
+    background: var(--navy);
+    margin-top: 30px;
+}
+
+footer a {
+    
+}
