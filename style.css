@@ -55,14 +55,39 @@ p {
 .projects {
     display: grid;
     grid-auto-flow: column;
-    text-align: center;
+    position: relative;
 }
 
 .project-design {
     outline-style: solid;
     outline-color: var(--navy);
-    padding: 100px;
+    padding: 1%;
     margin: 10px;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.refactoring-text {
+    position: absolute;
+    color: var(--white);
+    background: var(--navy);
+    padding: 1px 5px 1px 5px;
+}
+
+.landing-page-text {
+    position: absolute;
+    color: var(--white);
+    background: var(--navy);
+    padding: 1px 5px 1px 5px;
+    left: 700px;
+}
+
+.project-three-text {
+    position: absolute;
+    color: var(--white);
+    background: var(--navy);
+    padding: 1px 5px 1px 5px;
+    left: 1000px;
 }
 
 form {
