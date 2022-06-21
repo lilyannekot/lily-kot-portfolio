@@ -12,6 +12,7 @@
     top: 0;
     width: 100%;
     background-color: var(--navy);
+    padding: 30px;
 }
 
 a {
@@ -20,8 +21,10 @@ a {
 }
 
 body {
+    display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
+    padding-top: 13%;
 }
 
 body h1 {
@@ -29,16 +32,19 @@ body h1 {
     background-color: #123C69;
     color: var(--white);
     overflow: hidden;
+    font-size: 50px;
 }
 
 body h2 {
     color: var(--navy);
+    text-align: center;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    max-width: 25%;
+    margin: auto;
+    max-width: 50%;
     background: #edc7b7;
     color: var(--navy);
 }
@@ -78,8 +84,11 @@ footer {
     position: fixed;
     background: var(--navy);
     margin-top: 30px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
 }
 
 footer a {
-    
+    text-align: center;
 }
