@@ -13,7 +13,8 @@
     top: 0;
     width: 100%;
     background-color: var(--navy);
-    padding: 30px;
+    padding: 20px;
+    z-index: 1;
 }
 
 a {
@@ -45,11 +46,16 @@ body h2 {
     color: var(--navy);
     text-align: center;
     margin: 50px;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 p {
     text-align: center;
+}
+
+.img-sizing {
+    height: 400px;
+    width: 300px;
 }
 
 .projects {
@@ -63,8 +69,8 @@ p {
     outline-color: var(--navy);
     padding: 1%;
     margin: 10px;
-    max-width: 70%;
-    max-height: 70%;
+    width: 500px;
+    height: 500px;
 }
 
 .refactoring-text {
@@ -79,7 +85,7 @@ p {
     color: var(--white);
     background: var(--navy);
     padding: 1px 5px 1px 5px;
-    left: 700px;
+    left: 750px;
 }
 
 .project-three-text {
@@ -87,7 +93,7 @@ p {
     color: var(--white);
     background: var(--navy);
     padding: 1px 5px 1px 5px;
-    left: 1000px;
+    left: 1350px;
 }
 
 form {
