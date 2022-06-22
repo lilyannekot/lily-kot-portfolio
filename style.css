@@ -85,6 +85,11 @@ body h2 {
     justify-content: center;
 }
 
+.projects a img h4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* Adds styling to the boxes found in the "Projects" section in the html */
 .project-design {
     outline-style: solid;
